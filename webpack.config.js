@@ -63,6 +63,10 @@ module.exports = {
                 use: [
                     'xml-loader'
                 ]
+            },
+            {
+                test: /\.hbs$/,
+                loader: 'handlebars-template-loader'
             }
         ]
     }
